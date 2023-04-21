@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+body {
+    background-image:url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.navbar{
+    width: 200px;
+    overflow: hidden;
+    height: 100vh;
+    position: fixed;
+    background-color: #090632;
+    color: white;
+    padding-top: 2%;
+    padding-left: 1%;
+}
+.navbar .profile .image{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.navbar .profile .image img{
+    width: 100%;
+    
+}
+
+.navbar ul li{
+    display: flex;
+    align-items:center ;
+    
+}
+
+.navbar .nav-title{
+    margin-left: 5%;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+}
+.navbar .account{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+.navbar ul li{
+    margin-bottom: 10%;
+    cursor: pointer;
+
+}
+.navbar ul li .nav-title a{
+    color:white;
+    text-decoration: none;
+    
+}
+.navbar ul li .nav-title a:hover{
+    color: #4f0a57;
+    transition-duration: 0.2s;
+}
+.navbar ul li .search-box input{
+    height:30px;
+    background-color: transparent;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10%
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbar ul:last-child li:last-child{
+font-style: italic;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: #4f0a57;
+height: 30px;
+}
+
+.container{
+    width:60%;
+    margin-left: 25%;
+    padding-top: 2%;
+    overflow: auto;
+}
+.grid-1 .ads {
+    width:100%;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.grid-1 .ads img{
+    width: 100%;
+}
+
+
+.grid-2 .header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2%;
+    color: white;
+    font-size: 1.5rem; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-2 .books{
+    margin-top: 2%;
+    display: flex;
+    overflow: auto;
+}
+
+.grid-2 .books .book{
+    min-height: 300px;
+    min-width: 150px;
+    max-height: 300px;
+    max-width: 150px;
+    overflow: hidden;
+    border-radius: 2px;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    
+}
+.grid-2 .books .book img{
+    width: 100%;
+}
+/*grid3*/
+
+.grid-3 .header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2%;
+    color: white;
+    font-size: 1.5rem; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.grid-3 .books{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.grid-3 .books .book{
+    min-height: 300px;
+    min-width: 150px;
+    max-height: 300px;
+    max-width: 150px;
+    overflow: hidden;
+    border-radius: 2px;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-3 .books .book img{
+    width: 100%;
+}
